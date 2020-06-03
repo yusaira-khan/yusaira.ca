@@ -1,0 +1,12 @@
+#+TITLE:       First!
+#+AUTHOR:      Yusaira Khan
+#+EMAIL:       yusairamkhan@gmail.com
+#+DATE:        2020-06-03 Wed
+#+URI:         /blog/%y/%m/%d/first
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: This took way too long
+This took a while to setup. way too complicated.
+( the way you're acting like you're somebody else gets me frustrated - Avril Lavinge)
