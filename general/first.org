@@ -2,7 +2,7 @@
 #+AUTHOR:      Yusaira Khan
 #+EMAIL:       yusairamkhan@gmail.com
 #+DATE:        2020-06-03 Wed
-#+URI:         blog/%y/%m/%d/first
+#+URI:         /blog/%y/%m/%d/first
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: This took way too long
