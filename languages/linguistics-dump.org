@@ -1,8 +1,8 @@
 #+TITLE:       I have a crush on Linguistics
 #+AUTHOR:      Yusaira Khan
 #+EMAIL:       yusairamkhan@gmail.com
-#+DATE:        2020-06-12 Fri
-#+URI:         /blog/%y/%m/%d/i-have-a-crush-on-linguistics
+#+DATE:        2020-07-22 Sat
+#+URI:         /blog/%y/%m/%d/etymologies-are-crazy-fascinating
 #+KEYWORDS:    linguistics
 #+TAGS:        linguistics
 #+LANGUAGE:    en
@@ -31,3 +31,44 @@ Young (English)
  (Jowan) (Persian for young) جوان
 জোয়ান (Jo-ahn) (Bengali for young man)
 जवान (Javan) 
+
+-------------
+Head (English via Germanic)
+Capital (English via Latin)
+कपाल (kapaal) (Hindi for head)
+কপাল (kopal) (Bengali for forehead or luck)
+
+-----
+سپهر (Persian for sky)(Sepehr)
+सफेद (Safed) (Hindi for white)
+শ্বেত / সাদা (Shet/Shada) (Bengali for white)
+
+-----
+Hibernate (English)
+The Himalayas (English)
+হিম (him) (Bengali for cool/dew/frost)
+----
+
+Word (English via Germanic)
+Verb (English via Latin)
+व्रत (vrat) (Hindi for fast)
+ব্রত (brot) (Bengali for vow)
+
+Tree (English)
+Truth (English)
+ডাঁটা/ডাল (data/dal) (bengali for stem)
+
+
+Dis- prefix in disgrace/disappoint
+To দুঃ prefix in Bengali in দুঃখ(sadness)(duhkho),  দুর্গ(fort)(durgo)
+Similarly, दुःख (sadness)(dukh), दुर्ग(fort)(durg) in Hindi
+
+
+Water (English)
+Otter (English)
+উদ (ud)(Bengali for water, but rarely used)
+উদ্বিড়াল (udbiral) (Bengali for otter. Literally water cat! 
+
+
+These are just somethings about language that blow my mind. I've been trying to present these better. probably need a better format/screen. also really want to add Urdu to the list.
+Thank you for coming to my ted talk.
