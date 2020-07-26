@@ -4,16 +4,23 @@
     <title>Yusaira&#39;s Blog</title>
     <link>http://yusaira.ca/blog/</link>
     <description>I don&#39;t know?</description>
-    <pubDate>Sat, 25 Jul 2020 20:43:03 EDT</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2020 20:43:03 EDT</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2020 20:51:52 EDT</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2020 20:51:52 EDT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>I have a crush on Linguistics</title>
+      <title>First!</title>
+      <link>http://yusaira.ca/blog/blog/2020/06/03/first</link>
+      <description><![CDATA[This took way too long]]></description>
+      <pubDate>2020-07-25</pubDate>
+      <guid>http://yusaira.ca/blog/blog/2020/06/03/first</guid>
+    </item>
+    <item>
+      <title>Etymologies are Crazy Fascinating</title>
       <link>http://yusaira.ca/blog/blog/2020/07/22/etymologies-are-crazy-fascinating</link>
       <description><![CDATA[<div>
 <div class="post">
-<h1>I have a crush on Linguistics</h1>
+<h1>Etymologies are Crazy Fascinating</h1>
 <p>
 I've been obsessed with the etymology of words in English that relate to words in Bengali/Hindi for forever.
 English is a Germanic (and a bit of Latin derived) language. Bengali is a Sanskrit derived language. Sanskrit and Latin are thought to derived from Proto-Indo-European.
@@ -109,13 +116,6 @@ Thank you for coming to my ted talk.
 </div>]]></description>
       <pubDate>2020-07-25</pubDate>
       <guid>http://yusaira.ca/blog/blog/2020/07/22/etymologies-are-crazy-fascinating</guid>
-    </item>
-    <item>
-      <title>First!</title>
-      <link>http://yusaira.ca/blogblog/2020/06/03/first</link>
-      <description><![CDATA[This took way too long]]></description>
-      <pubDate>2020-06-06</pubDate>
-      <guid>http://yusaira.ca/blogblog/2020/06/03/first</guid>
     </item>
   </channel>
 </rss>
