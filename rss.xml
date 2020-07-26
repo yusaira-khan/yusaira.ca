@@ -4,8 +4,8 @@
     <title>Yusaira&#39;s Blog</title>
     <link>http://yusaira.ca/blog/</link>
     <description>I don&#39;t know?</description>
-    <pubDate>Sat, 25 Jul 2020 20:51:52 EDT</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2020 20:51:52 EDT</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2020 20:55:02 EDT</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2020 20:55:02 EDT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -17,7 +17,7 @@
     </item>
     <item>
       <title>Etymologies are Crazy Fascinating</title>
-      <link>http://yusaira.ca/blog/blog/2020/07/22/etymologies-are-crazy-fascinating</link>
+      <link>http://yusaira.ca/blog/blog/2020/07/25/etymologies-are-crazy-fascinating</link>
       <description><![CDATA[<div>
 <div class="post">
 <h1>Etymologies are Crazy Fascinating</h1>
@@ -46,6 +46,7 @@ Summer (English)
 সন (Shon) (Bengali for year)
 संवत (Hindi for year)
 </p>
+<hr />
 
 <p>
 Related words:
@@ -75,9 +76,9 @@ Capital (English via Latin)
 Hibernate (English)
 The Himalayas (English)
 হিম (him) (Bengali for cool/dew/frost)
-----
 </p>
 
+<hr />
 <p>
 Word (English via Germanic)
 Verb (English via Latin)
@@ -85,12 +86,14 @@ Verb (English via Latin)
 ব্রত (brot) (Bengali for vow)
 </p>
 
+<hr />
 <p>
 Tree (English)
 Truth (English)
 ডাঁটা/ডাল (data/dal) (bengali for stem)
 </p>
 
+<hr />
 
 <p>
 Dis- prefix in disgrace/disappoint
@@ -98,6 +101,7 @@ To দুঃ prefix in Bengali in দুঃখ(sadness)(duhkho),  দুর্�
 Similarly, दुःख (sadness)(dukh), दुर्ग(fort)(durg) in Hindi
 </p>
 
+<hr />
 
 <p>
 Water (English)
@@ -106,6 +110,7 @@ Otter (English)
 উদ্বিড়াল (udbiral) (Bengali for otter. Literally water cat! 
 </p>
 
+<hr />
 
 <p>
 These are just somethings about language that blow my mind. I've been trying to present these better. probably need a better format/screen. also really want to add Urdu to the list.
@@ -115,7 +120,7 @@ Thank you for coming to my ted talk.
 </div>
 </div>]]></description>
       <pubDate>2020-07-25</pubDate>
-      <guid>http://yusaira.ca/blog/blog/2020/07/22/etymologies-are-crazy-fascinating</guid>
+      <guid>http://yusaira.ca/blog/blog/2020/07/25/etymologies-are-crazy-fascinating</guid>
     </item>
   </channel>
 </rss>
