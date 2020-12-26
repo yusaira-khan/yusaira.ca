@@ -36,9 +36,6 @@
 
         }
 
-        .links.sep {
-            display: block;
-        }
 
 
         a {
@@ -50,220 +47,212 @@
             color: rgb(17, 119, 70);
             font-size: 60%;
         }
-
-        i {
-            margin: 10px;
-        }
-
-        .link-icon>i {
-            margin-top: 0
-        }
-
-        .stacked-icon>.fa-stack {
-            width: 3vw;
-        }
-
-        .link-icon {
-            display: inline;
-        }
-
-        .link-text {
-            display: inline;
-        }
     </style>
 </head>
 
-<body id=body>
-    <section>
-    <div id=name>
-        Yusaira Khan
-    </div>
-    <div id=list>
-        <div class="links">
-            <a href="https://www.linkedin.com/in/yusairakhan">
-                <div class="link-icon">
-                    <i class='fab fa-linkedin'></i>
+<body id=body class="hero is-fullheight">
+    <div class="hero-body has-text-centered">
+        <div class="container">
+            <div id=name class="columns">
+                <div class="column">
+                    Yusaira Khan
                 </div>
-                <div class="link-text">
-                    LinkedIn
+            </div>
+            <div id=list class="columns">
+                <div class="links column">
+                    <a href="https://www.linkedin.com/in/yusairakhan">
+                        <div class="link-icon">
+                            <i class='fab fa-linkedin'></i>
+                        </div>
+                        <div class="link-text">
+                            LinkedIn
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <div class="links">
-            <script type="text/javascript" language="javascript">
-                <!--
-                // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-                // This code is freeware provided these four comment lines remain intact
-                // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-                {
-                    coded = "RXxY3oYBtdYg@mBY34.V0B"
-                    key = "mJ9Rd478xHGMNSYjzunU0wBCkbqW5QeALcD1iZrXgFOyhltTsp6KE2aVfv3IoP"
-                    shift = coded.length
-                    link = ""
-                    for (i = 0; i < coded.length; i++) {
-                        if (key.indexOf(coded.charAt(i)) == -1) {
-                            ltr = coded.charAt(i)
-                            link += (ltr)
-                        } else {
-                            ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
-                            link += (key.charAt(ltr))
+                <div class="links column">
+                    <script type="text/javascript" language="javascript">
+                        <!--
+                        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                        // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+                        // This code is freeware provided these four comment lines remain intact
+                        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                        {
+                            coded = "RXxY3oYBtdYg@mBY34.V0B"
+                            key = "mJ9Rd478xHGMNSYjzunU0wBCkbqW5QeALcD1iZrXgFOyhltTsp6KE2aVfv3IoP"
+                            shift = coded.length
+                            link = ""
+                            for (i = 0; i < coded.length; i++) {
+                                if (key.indexOf(coded.charAt(i)) == -1) {
+                                    ltr = coded.charAt(i)
+                                    link += (ltr)
+                                } else {
+                                    ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                                    link += (key.charAt(ltr))
+                                }
+                            }
+                            document.write("<a href='mailto:" + link + "'><div class='link-icon'><i class='fa fa-envelope-square'></i></div><div class='link-text'>Email</div></a>")
                         }
-                    }
-                    document.write("<a href='mailto:" + link + "'><div class='link-icon'><i class='fa fa-envelope-square'></i></div><div class='link-text'>Email</div></a>")
-                }
-                //
-                -->
-            </script><noscript>Sorry, you need Javascript on to email me.</noscript>
-        </div>
+                        //
+                        -->
+                    </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+                </div>
 
-        <div class="links">
-            <a href="https://github.com/yusaira-khan">
-                <div class="link-icon">
+                <div class="links column">
+                    <a href="https://github.com/yusaira-khan">
+                        <div class="link-icon">
 
-                    <i class='fab fa-github-square'></i>
+                            <i class='fab fa-github-square'></i>
+                        </div>
+                        <div class="link-text">
+                            Github
+                        </div>
+                    </a>
                 </div>
-                <div class="link-text">
-                    Github
-                </div>
-            </a>
-        </div>
-        <div class="links">
-            <a href="https://twitter.com/yusairakhan">
-                <div class="link-icon">
+                <div class="links column">
+                    <a href="https://twitter.com/yusairakhan">
+                        <div class="link-icon">
 
-                    <i class='fab fa-twitter-square'></i>
+                            <i class='fab fa-twitter-square'></i>
+                        </div>
+                        <div class="link-text">
+                            Twitter
+                        </div>
+                    </a>
                 </div>
-                <div class="link-text">
-                    Twitter
+            </div>
+            <div class="columns">
+                <div class="links column">
+                    <a href="/blog">
+                        <div id=blogSquare>
+                            <div class="link-icon stacked-icon">
+
+                                <i class="fa-stack fa-stack-lg">
+                                    <span class='fa fa-square fa-stack-1x'></span>
+                                    <span class='fas fa-shapes fa-stack-1x stacked-icon-inner'></span>
+                                </i>
+                            </div>
+                            <div class="link-text">
+                                Blog
+                            </div>
+
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <div class="links sep">
-            <a href="/blog">
-                <div id=blogSquare>
+            </div>
+            <div class="columns">
+                <div id=colorSection class="links column">
+                    <div id='colorButton' class="link-icon stacked-icon">
+                        <div class="link-icon stacked-icon">
+                            <i class="fa-stack fa-stack-lg">
+                                <span class='fa fa-square fa-stack-1x'></span>
+                                <span class='fa fa-paint-brush fa-stack-1x stacked-icon-inner'></span>
+                            </i>
+                        </div>
+
+                        <div class="link-text">Color Clock</div>
+                    </div>
+                </div>
+                <div id="clockDiv" style="display:none;" class="links column">
                     <div class="link-icon stacked-icon">
-
-                        <i class="fa-stack fa-stack-lg">
-                            <span class='fa fa-square fa-stack-1x'></span>
-                            <span class='fas fa-shapes fa-stack-1x stacked-icon-inner'></span>
+                        <i id="closeButton" class="fas fa-window-close">
                         </i>
-                    </div>
-                    <div class="link-text">
-                        Blog
+                        <span id=clock class=link-text>
+                        </span>
                     </div>
 
                 </div>
-            </a>
-        </div>
-        <div id=colorSection class="links sep">
-            <div id='colorButton' class="link-icon stacked-icon">
-                <i class="fa-stack fa-stack-lg">
-                    <span class='fa fa-square fa-stack-1x'></span>
-                    <span class='fa fa-paint-brush fa-stack-1x stacked-icon-inner'></span>
-                </i>
-                <div class="link-text">Color Clock</div>
+
             </div>
         </div>
-        <div id="clockDiv" style="display:none;" class="links">
-            <div class="link-icon stacked-icon">
-                <i id="closeButton" class="fas fa-window-close">
-                </i>
-                <span id=clock class=link-text>
-                </span>
-            </div>
+    </div>
 
-        </div>
+    <script>
+        var body = document.getElementById('body').style;
+        var color = document.getElementById('colorSection').style;
+        var clock = document.getElementById('clockDiv').style;
+        var modeOptions = ['rgb', 'bgr', "gbr", "rbg", "brg", "grb"];
+        var modeIndex = 0;
+        var mode = modeOptions[modeIndex];
 
-        </section>
+        function changeMode() {
+            modeIndex++;
+            modeIndex = modeIndex % modeOptions.length;
+            mode = modeOptions[modeIndex];
+            console.log(mode);
+        }
+        var timer;
 
-        <script>
-            var body = document.getElementById('body').style;
-            var color = document.getElementById('colorSection').style;
-            var clock = document.getElementById('clockDiv').style;
-            var modeOptions = ['rgb', 'bgr', "gbr", "rbg", "brg", "grb"];
-            var modeIndex = 0;
-            var mode = modeOptions[modeIndex];
-
-            function changeMode() {
-                modeIndex++;
-                modeIndex = modeIndex % modeOptions.length;
-                mode = modeOptions[modeIndex];
-                console.log(mode);
+        function changeColor(colorString) {
+            body['background-color'] = colorString;
+            var texts = document.getElementsByClassName('stacked-icon-inner');
+            for (var i = 0; i < texts.length; i++) {
+                texts[i].style.color = colorString;
             }
-            var timer;
+        }
 
-            function changeColor(colorString) {
-                body['background-color'] = colorString;
-                var texts = document.getElementsByClassName('stacked-icon-inner');
-                for (var i = 0; i < texts.length; i++) {
-                    texts[i].style.color = colorString;
-                }
-            }
+        function addShadow() {
+            body['text-shadow'] = "2px 2px 2px #ddd"
+        }
 
-            function addShadow() {
-                body['text-shadow'] = "2px 2px 2px #ddd"
-            }
+        function removeShadow() {
+            body['text-shadow'] = ""
+        }
 
-            function removeShadow() {
-                body['text-shadow'] = ""
-            }
+        function convertToRGB(h, m, s, mode) {
+            var colorDict = {};
+            colorDict[mode[0]] = h;
+            colorDict[mode[1]] = m;
+            colorDict[mode[2]] = s;
 
-            function convertToRGB(h, m, s, mode) {
-                var colorDict = {};
-                colorDict[mode[0]] = h;
-                colorDict[mode[1]] = m;
-                colorDict[mode[2]] = s;
+            return 'rgb(' + colorDict['r'] + ',' +
+                colorDict['b'] + ',' +
+                colorDict['g'] + ')';
+        }
 
-                return 'rgb(' + colorDict['r'] + ',' +
-                    colorDict['b'] + ',' +
-                    colorDict['g'] + ')';
-            }
+        function getColorFromTime(d, mode) {
+            var hourCoeff = 256.0 / 24;
+            var minuteCoeff = 256.0 / 60;
+            var secondCoeff = minuteCoeff;
+            var hourColor = (d.getHours() * hourCoeff);
+            hourColor = hourColor.toFixed();
+            var minuteColor = d.getMinutes() * minuteCoeff;
+            minuteColor = minuteColor.toFixed();
+            var secondColor = d.getSeconds() * secondCoeff;
+            secondColor = secondColor.toFixed();
+            return convertToRGB(hourColor, minuteColor, secondColor, mode);
+        }
 
-            function getColorFromTime(d, mode) {
-                var hourCoeff = 256.0 / 24;
-                var minuteCoeff = 256.0 / 60;
-                var secondCoeff = minuteCoeff;
-                var hourColor = (d.getHours() * hourCoeff);
-                hourColor = hourColor.toFixed();
-                var minuteColor = d.getMinutes() * minuteCoeff;
-                minuteColor = minuteColor.toFixed();
-                var secondColor = d.getSeconds() * secondCoeff;
-                secondColor = secondColor.toFixed();
-                return convertToRGB(hourColor, minuteColor, secondColor, mode);
-            }
+        function getTime(d, mode) {
+            var displayText = mode + '(' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds() + ')';
+            return displayText;
+        }
 
-            function getTime(d, mode) {
-                var displayText = mode + '(' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds() + ')';
-                return displayText;
-            }
+        function displayClock() {
+            var d = new Date();
+            var color = getColorFromTime(d, mode);
+            changeColor(color);
+            addShadow();
+            var displayText = getTime(d, mode);
+            document.getElementById('clock').textContent = 'Current color is:' + displayText;
+        }
 
-            function displayClock() {
-                var d = new Date();
-                var color = getColorFromTime(d, mode);
-                changeColor(color);
-                addShadow();
-                var displayText = getTime(d, mode);
-                document.getElementById('clock').textContent = 'Current color is:' + displayText;
-            }
+        function removeClock() {
+            clearInterval(timer);
+            changeColor('rgb(17,119,70)');
+            removeShadow();
+            clock.display = 'none';
+            color.display = 'inline-block';
+        }
 
-            function removeClock() {
-                clearInterval(timer);
-                changeColor('rgb(17,119,70)');
-                removeShadow();
-                clock.display = 'none';
-                color.display = 'inline-block';
-            }
-
-            function startClock() {
-                timer = setInterval(displayClock);
-                clock.display = 'inline-block';
-                color.display = 'none';
-            }
-            document.getElementById('colorSection').onclick = startClock;
-            document.getElementById('closeButton').onclick = removeClock;
-            document.getElementById('clock').onclick = changeMode;
-        </script>
+        function startClock() {
+            timer = setInterval(displayClock);
+            clock.display = 'inline-block';
+            color.display = 'none';
+        }
+        document.getElementById('colorSection').onclick = startClock;
+        document.getElementById('closeButton').onclick = removeClock;
+        document.getElementById('clock').onclick = changeMode;
+    </script>
 </body>
 
 </html>
