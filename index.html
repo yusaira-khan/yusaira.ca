@@ -36,40 +36,49 @@
 
         }
 
+        .beside-stacked {
+            vertical-align: middle;
+        }
 
+        .fa-stack {
+            font-size: 0.5em;
+        }
 
         a {
             color: #ffffff;
             text-decoration: none;
         }
+     .stacked-icon {
+         vertical-align: middle;
+         justify-content: center;
+         }
 
         .stacked-icon-inner {
             color: rgb(17, 119, 70);
-            font-size: 60%;
         }
     </style>
 </head>
 
-<body id=body class="hero is-fullheight">
+<body id=body class="hero is-fullheight is-size-3">
     <div class="hero-body has-text-centered">
         <div class="container">
             <div id=name class="columns">
-                <div class="column">
+                <div class="column is-size-1">
                     Yusaira Khan
                 </div>
             </div>
-            <div id=list class="columns">
-                <div class="links column">
+            <div id=list class="columns is-desktop is-centered">
+                <div class="links column is-narrow">
                     <a href="https://www.linkedin.com/in/yusairakhan">
-                        <div class="link-icon">
+                        <span class="icon">
                             <i class='fab fa-linkedin'></i>
-                        </div>
-                        <div class="link-text">
+                        </span>
+                        <span class="link-text">
                             LinkedIn
-                        </div>
+                        </span>
                     </a>
                 </div>
-                <div class="links column">
+                <div class="links column is-narrow">
                     <script type="text/javascript" language="javascript">
                         <!--
                         // Email obfuscator script 2.1 by Tim Williams, University of Arizona
@@ -90,80 +99,79 @@
                                     link += (key.charAt(ltr))
                                 }
                             }
-                            document.write("<a href='mailto:" + link + "'><div class='link-icon'><i class='fa fa-envelope-square'></i></div><div class='link-text'>Email</div></a>")
+                            document.write("<a href='mailto:" + link + "'><span class='icon'><i class='fa fa-envelope-square'></i></span>  <span class='link-text'>Email</span></a>")
                         }
                         //
                         -->
                     </script><noscript>Sorry, you need Javascript on to email me.</noscript>
                 </div>
 
-                <div class="links column">
+                <div class="links column is-narrow-desktop">
                     <a href="https://github.com/yusaira-khan">
-                        <div class="link-icon">
+                        <span class="icon">
 
                             <i class='fab fa-github-square'></i>
-                        </div>
-                        <div class="link-text">
+                        </span>
+                        <span class="link-text">
                             Github
-                        </div>
+                        </span>
                     </a>
                 </div>
-                <div class="links column">
+                <div class="links column is-narrow-desktop">
                     <a href="https://twitter.com/yusairakhan">
-                        <div class="link-icon">
+                        <span class="icon">
 
                             <i class='fab fa-twitter-square'></i>
-                        </div>
-                        <div class="link-text">
+                        </span>
+                        <span class="link-text">
                             Twitter
-                        </div>
+                        </span>
                     </a>
                 </div>
             </div>
-            <div class="columns">
-                <div class="links column">
-                    <a href="/blog">
-                        <div id=blogSquare>
-                            <div class="link-icon stacked-icon">
+            <div class="columns is-centered">
+                <div class="links column is-narrow-desktop">
+                    <a href="/blog" id=blogSquare>
+                        <span class="icon stacked-icon">
 
-                                <i class="fa-stack fa-stack-lg">
-                                    <span class='fa fa-square fa-stack-1x'></span>
-                                    <span class='fas fa-shapes fa-stack-1x stacked-icon-inner'></span>
-                                </i>
-                            </div>
-                            <div class="link-text">
-                                Blog
-                            </div>
+                            <i class="fa-stack ">
+                                <span class='fa fa-square fa-stack-2x'></span>
+                                <span class='fas fa-shapes fa-stack-1x stacked-icon-inner'></span>
+                            </i>
+                        </span>
+                        <span class="link-text beside-stacked">
+                            Blog
+                        </span>
 
-                        </div>
                     </a>
                 </div>
             </div>
-            <div class="columns">
-                <div id=colorSection class="links column">
-                    <div id='colorButton' class="link-icon stacked-icon">
-                        <div class="link-icon stacked-icon">
-                            <i class="fa-stack fa-stack-lg">
-                                <span class='fa fa-square fa-stack-1x'></span>
+            <div class="columns is-centered">
+                <div id=colorSection class="links column is-narrow-desktop">
+                    <div id='colorButton'>
+                        <span class="icon stacked-icon">
+                            <i class="fa-stack ">
+                                <span class='fa fa-square fa-stack-2x'></span>
                                 <span class='fa fa-paint-brush fa-stack-1x stacked-icon-inner'></span>
                             </i>
-                        </div>
-
-                        <div class="link-text">Color Clock</div>
-                    </div>
-                </div>
-                <div id="clockDiv" style="display:none;" class="links column">
-                    <div class="link-icon stacked-icon">
-                        <i id="closeButton" class="fas fa-window-close">
-                        </i>
-                        <span id=clock class=link-text>
                         </span>
-                    </div>
 
+                        <span class="link-text beside-stacked">Color Clock
+                    </div>
                 </div>
+            </div>
+            <div id="clockDiv" style="display:none;" class="links column is-narrow-desktop">
+                <span class="link-icon stacked-icon">
+                    <i id="closeButton" class="fas fa-window-close">
+                    </i>
+                    <span id=clock class=link-text>
+                    </span>
+                </span>
 
             </div>
+
         </div>
+    </div>
     </div>
 
     <script>
