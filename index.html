@@ -8,6 +8,7 @@
     <link href="/media/css/fontawesome/brands.min.css" rel="stylesheet">
     <link href="/media/css/fontawesome/fontawesome.min.css" rel="stylesheet">
     <link href="/media/css/fontawesome/solid.min.css" rel="stylesheet">
+    <link href="/media/css/bulma/bulma.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yusaira Khan</title>
 
@@ -19,7 +20,8 @@
             font-display: swap;
             src: local('Ilisarniq'), url("/media/webfonts/Ilisarniq-Regular.woff2") format('woff2');
         }
-     @font-face{
+
+        @font-face {
             font-family: 'Pat';
             font-style: normal;
             font-weight: 400;
@@ -31,13 +33,13 @@
             background-color: rgb(17, 119, 70);
             color: #ffffff;
             font-family: 'Pat', sans-serif;
-            text-align: center;
 
         }
 
         .links.sep {
             display: block;
         }
+
 
         a {
             color: #ffffff;
@@ -68,189 +70,112 @@
         .link-text {
             display: inline;
         }
-
-        @media (min-width:800px) {
-            .outer {
-                display: table;
-                position: absolute;
-                height: 100%;
-                width: 100%;
-            }
-
-            .middle {
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .inner {
-                margin-left: auto;
-                margin-right: auto;
-                width:
-                    /*whatever width you want*/
-                ;
-            }
-
-            #name {
-                font-size: 4.5vw;
-            }
-
-            .links {
-                font-size: 2.5vw;
-                display: inline-block;
-                margin: 20px;
-            }
-
-        }
-
-        @media (max-width:800px) and (min-width:400px) {
-            .outer {
-                display: table;
-                position: absolute;
-                height: 100%;
-                width: 100%;
-            }
-
-            .middle {
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .inner {
-                margin-left: auto;
-                margin-right: auto;
-                width: 342px;
-            }
-
-            #name {
-                font-size: 10vw;
-            }
-
-            #list {
-                width: 340px;
-                text-align: left;
-                margin-top: 3em;
-                margin-left: 2em;
-            }
-
-            .links {
-                font-size: 5vw;
-                margin: 20px;
-            }
-
-
-
-
-        }
     </style>
 </head>
 
 <body id=body>
-    <div class="outer">
-        <div class="middle">
-            <div class="inner">
-                <div id=name>
-                    Yusaira Khan
+    <section>
+    <div id=name>
+        Yusaira Khan
+    </div>
+    <div id=list>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/yusairakhan">
+                <div class="link-icon">
+                    <i class='fab fa-linkedin'></i>
                 </div>
-                <div id=list>
-                    <div class="links">
-                        <a href="https://www.linkedin.com/in/yusairakhan">
-                            <div class="link-icon">
-                                <i class='fab fa-linkedin'></i>
-                            </div>
-                            <div class="link-text">
-                                LinkedIn
-                            </div>
-                        </a>
-                    </div>
-                    <div class="links">
-                        <script type="text/javascript" language="javascript">
-                            <!--
-                            // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                            // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-                            // This code is freeware provided these four comment lines remain intact
-                            // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-                            {
-                                coded = "RXxY3oYBtdYg@mBY34.V0B"
-                                key = "mJ9Rd478xHGMNSYjzunU0wBCkbqW5QeALcD1iZrXgFOyhltTsp6KE2aVfv3IoP"
-                                shift = coded.length
-                                link = ""
-                                for (i = 0; i < coded.length; i++) {
-                                    if (key.indexOf(coded.charAt(i)) == -1) {
-                                        ltr = coded.charAt(i)
-                                        link += (ltr)
-                                    } else {
-                                        ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
-                                        link += (key.charAt(ltr))
-                                    }
-                                }
-                                document.write("<a href='mailto:" + link + "'><div class='link-icon'><i class='fa fa-envelope-square'></i></div><div class='link-text'>Email</div></a>")
-                            }
-                            //
-                            -->
-                        </script><noscript>Sorry, you need Javascript on to email me.</noscript>
-                    </div>
-
-                    <div class="links">
-                        <a href="https://github.com/yusaira-khan">
-                            <div class="link-icon">
-
-                                <i class='fab fa-github-square'></i>
-                            </div>
-                            <div class="link-text">
-                                Github
-                            </div>
-                        </a>
-                    </div>
-                    <div class="links">
-                        <a href="https://twitter.com/yusairakhan">
-                            <div class="link-icon">
-
-                                <i class='fab fa-twitter-square'></i>
-                            </div>
-                            <div class="link-text">
-                                Twitter
-                            </div>
-                        </a>
-                    </div>
-                    <div class="links sep">
-                        <a href="/blog">
-                            <div id=blogSquare>
-                                <div class="link-icon stacked-icon">
-
-                                    <i class="fa-stack fa-stack-lg">
-                                        <span class='fa fa-square fa-stack-1x'></span>
-                                        <span class='fas fa-shapes fa-stack-1x stacked-icon-inner'></span>
-                                    </i>
-                                </div>
-                                <div class="link-text">
-                                    Blog
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div id=colorSection class="links sep">
-                        <div id='colorButton' class="link-icon stacked-icon">
-                            <i class="fa-stack fa-stack-lg">
-                                <span class='fa fa-square fa-stack-1x'></span>
-                                <span class='fa fa-paint-brush fa-stack-1x stacked-icon-inner'></span>
-                            </i>
-                            <div class="link-text">Color Clock</div>
-                        </div>
-                    </div>
-                    <div id="clockDiv" style="display:none;" class="links">
-                        <div class="link-icon stacked-icon">
-                            <i id="closeButton" class="fas fa-window-close">
-                            </i>
-                            <span id=clock class=link-text>
-                            </span>
-                        </div>
-
-                    </div>
+                <div class="link-text">
+                    LinkedIn
                 </div>
-            </div>
+            </a>
+        </div>
+        <div class="links">
+            <script type="text/javascript" language="javascript">
+                <!--
+                // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+                // This code is freeware provided these four comment lines remain intact
+                // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                {
+                    coded = "RXxY3oYBtdYg@mBY34.V0B"
+                    key = "mJ9Rd478xHGMNSYjzunU0wBCkbqW5QeALcD1iZrXgFOyhltTsp6KE2aVfv3IoP"
+                    shift = coded.length
+                    link = ""
+                    for (i = 0; i < coded.length; i++) {
+                        if (key.indexOf(coded.charAt(i)) == -1) {
+                            ltr = coded.charAt(i)
+                            link += (ltr)
+                        } else {
+                            ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                            link += (key.charAt(ltr))
+                        }
+                    }
+                    document.write("<a href='mailto:" + link + "'><div class='link-icon'><i class='fa fa-envelope-square'></i></div><div class='link-text'>Email</div></a>")
+                }
+                //
+                -->
+            </script><noscript>Sorry, you need Javascript on to email me.</noscript>
         </div>
 
+        <div class="links">
+            <a href="https://github.com/yusaira-khan">
+                <div class="link-icon">
+
+                    <i class='fab fa-github-square'></i>
+                </div>
+                <div class="link-text">
+                    Github
+                </div>
+            </a>
+        </div>
+        <div class="links">
+            <a href="https://twitter.com/yusairakhan">
+                <div class="link-icon">
+
+                    <i class='fab fa-twitter-square'></i>
+                </div>
+                <div class="link-text">
+                    Twitter
+                </div>
+            </a>
+        </div>
+        <div class="links sep">
+            <a href="/blog">
+                <div id=blogSquare>
+                    <div class="link-icon stacked-icon">
+
+                        <i class="fa-stack fa-stack-lg">
+                            <span class='fa fa-square fa-stack-1x'></span>
+                            <span class='fas fa-shapes fa-stack-1x stacked-icon-inner'></span>
+                        </i>
+                    </div>
+                    <div class="link-text">
+                        Blog
+                    </div>
+
+                </div>
+            </a>
+        </div>
+        <div id=colorSection class="links sep">
+            <div id='colorButton' class="link-icon stacked-icon">
+                <i class="fa-stack fa-stack-lg">
+                    <span class='fa fa-square fa-stack-1x'></span>
+                    <span class='fa fa-paint-brush fa-stack-1x stacked-icon-inner'></span>
+                </i>
+                <div class="link-text">Color Clock</div>
+            </div>
+        </div>
+        <div id="clockDiv" style="display:none;" class="links">
+            <div class="link-icon stacked-icon">
+                <i id="closeButton" class="fas fa-window-close">
+                </i>
+                <span id=clock class=link-text>
+                </span>
+            </div>
+
+        </div>
+
+        </section>
 
         <script>
             var body = document.getElementById('body').style;
