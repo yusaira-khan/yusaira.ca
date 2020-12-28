@@ -1,127 +1,118 @@
 <!DOCTYPE html>
 <html lang="en-us">
- <head profile="http://www.w3.org/2005/10/profile">
-    <link rel="icon"
-          type="image/png"
-          href="/media/wow.png">
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="/media/wow.png">
     <title>First! - Yusaira&#39;s Blog</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Yusaira Khan" />
     <meta name="description" content="This took way too long" />
+    <link rel="stylesheet" href="/media/css/bulma/bulma.min.css" type="text/css">
     <style>
-     @font-face {
-         font-family: 'Ilisarniq';
-         font-display: swap;
-         src: local('Ilisarniq'),  url("/Ilisarniq-Regular.woff2") format('woff2');
-     }
-     @font-face {
-         font-family: 'Ilisarniq';
-         font-style: italic;
-         font-display: swap;
-         src: local('Ilisarniq'),  url("/Ilisarniq-Italic.woff2") format('woff2');
-     }
-     @font-face {
-         font-family: 'Ilisarniq';
-         font-weight: bold;
-         font-display: swap;
-         src: local('Ilisarniq'),  url("/Ilisarniq-Bold.woff2") format('woff2');
-     }
-     body {
-         font-family: Ilisarniq , sans-serif;
-     }
+        :root {
+            --bold-bg-color: #117746;
+            --light-color: #cbcbcb;
+            --dark-fg-color: #cbcbcb;
+        }
+
+        @font-face {
+            font-family: 'Pat';
+            font-display: swap;
+            src: local('Pat'), url("/media/webfonts/PatrickHand-Regular.woff2") format('woff2');
+        }
+
+        body {
+            font-family: Pat, sans-serif;
+        }
+
+        header {
+            background-color: --var(--bold-bg-color);
+        }
+
+        header,
+        header a {
+            color: --var(--light-color);
+        }
     </style>
-    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
-  </head>
+</head>
 
-  <body class="container">
+<body class="container">
+    <header class="masthead navbar" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="masthead-title navbar-item"><a href="/blog/">Yusaira&#39;s Blog</a></h1>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-start" />
+            <div class="navbar-end">
+                <div><a href="/blog/">Blog</a></div>
+                <div><a href="/general/">General</a></div>
+                <div><a href="/languages/">Languages</a></div>
+                <div><a href="/tags/">Tags</a></div>
+                <div><a href="/">Home</a></div>
+                <div><a href="http://github.com/yusaira-khan">GitHub</a></div>
+                <div><a href="/rss.xml">RSS</a></div>
+            </div>
+        </div>
+    </header>
+
     <div>
-      <header class="masthead">
-        <h1 class="masthead-title"><a href="/blog/">Yusaira&#39;s Blog</a></h1>
-        <p>I don&#39;t know?</p>
-        <ul>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/general/">General</a></li>
-          <li><a href="/languages/">Languages</a></li>
-          <li><a href="/tags/">Tags</a></li>
-          <li><a href="/">Home</a></li>
-          <li><a href="http://github.com/yusaira-khan">GitHub</a></li>
-          <li><a href="/rss.xml">RSS</a></li>
-        </ul>
-      </header>
+        <div class="post">
+            <h1>First!</h1>
+            <p>
+                This took a while to setup.
+            </p>
+
+            <p>
+                For some reason I was really set on using org files to statically generate this site. Then I looked through a lot of different org file static site generators. Finally landed on org-pages, but then forked it, heavily modified it and removed modifications.
+            </p>
+
+
+            <p>
+                At least I know emacs lisp now. (Self High Five!)
+            </p>
+
+
+            <p>
+                This was way too complicated.
+            </p>
+
+            <blockquote>
+                <p>
+                    Why'd you have to go and make things so complicated?
+                    I see the way you're acting like you're somebody else
+                    Gets me frustrated
+                    -- Avril Lavigne
+                </p>
+            </blockquote>
+
+        </div>
+    </div>
+    <div>
+        <div class="post-meta">
+            <span title="post date" class="post-info">2020-06-03</span>
+            <span title="last modification date" class="post-info">2020-07-25</span>
+            <span title="tags" class="post-info">N/A</span>
+        </div>
+        <div class="footer">
+            <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+            <p>
+                Hello! its <span id="footerYear"></span> and I am <a href="mailto:yusairamkhan &lt;at&gt; gmail &lt;dot&gt; com">Yusaira Khan</a> !
+                &nbsp;&nbsp;-&nbsp;&nbsp;
+                Powered by (fork of) <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+                <script type="text/javascript">
+                    document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();
+                </script>
+            </p>
+        </div>
     </div>
 
-<div>
-<div class="post">
-<h1>First!</h1>
-<p>
-This took a while to setup. 
-</p>
+</body>
 
-<p>
-For some reason I was really set on using org files to statically generate this site. Then I looked through a lot of different org file static site generators. Finally landed on org-pages, but then forked it, heavily modified it and removed modifications.
-</p>
-
-
-<p>
-At least I know emacs lisp now. (Self High Five!)
-</p>
-
-
-<p>
-This was way too complicated.
-</p>
-
-<blockquote>
-<p>
-Why'd you have to go and make things so complicated?
-I see the way you're acting like you're somebody else
-Gets me frustrated
--- Avril Lavigne
-</p>
-</blockquote>
-
-</div>
-</div>
-    <div>
-      <div class="post-meta">
-        <span title="post date" class="post-info">2020-06-03</span>
-        <span title="last modification date" class="post-info">2020-07-25</span>
-        <span title="tags" class="post-info">N/A</span>
-      </div>
-      <section>
-        <h1>Comments</h1>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-          //var disqus_developer = 1;
-          var disqus_identifier = "/blog/2020/06/03/first";
-          var disqus_url = "http://yusaira.ca/blog/blog/2020/06/03/first";
-          var disqus_shortname = 'yusaira-ca';
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </section>
-      <script src="//code.jquery.com/jquery-latest.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
-      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-      <script src="/media/js/main.js"></script>
-      <div class="footer">
-        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
-        <p>
-          Hello! its <span id="footerYear"></span> and I am <a href="mailto:yusairamkhan &lt;at&gt; gmail &lt;dot&gt; com">Yusaira Khan</a> !
-          &nbsp;&nbsp;-&nbsp;&nbsp;
-          Powered by (fork of) <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
-          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
-        </p>
-      </div>
-    </div>
-
-  </body>
 </html>
