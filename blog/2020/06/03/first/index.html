@@ -13,7 +13,7 @@
         :root {
             --bold-bg-color: #117746;
             --light-color: #cbcbcb;
-            --dark-fg-color: #cbcbcb;
+            --dark-fg-color: #0d5c36;
         }
 
         @font-face {
@@ -26,43 +26,71 @@
             font-family: Pat, sans-serif;
         }
 
-        header {
-            background-color: --var(--bold-bg-color);
+        .navbar, .navbar-item {
+            background-color: var(--bold-bg-color);
         }
 
-        header,
-        header a {
-            color: --var(--light-color);
+        .navbar,
+        .navbar a {
+            color: var(--light-color);
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
 </head>
 
-<body class="container">
+<body>
     <header class="masthead navbar" aria-label="main navigation">
         <div class="navbar-brand">
             <h1 class="masthead-title navbar-item"><a href="/blog/">Yusaira&#39;s Blog</a></h1>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu" >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
 
-        <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-start" />
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
             <div class="navbar-end">
-                <div><a href="/blog/">Blog</a></div>
-                <div><a href="/general/">General</a></div>
-                <div><a href="/languages/">Languages</a></div>
-                <div><a href="/tags/">Tags</a></div>
-                <div><a href="/">Home</a></div>
-                <div><a href="http://github.com/yusaira-khan">GitHub</a></div>
-                <div><a href="/rss.xml">RSS</a></div>
+                <div class="navbar-item"><a href="/blog/">Blog</a></div>
+                <div class="navbar-item"><a href="/general/">General</a></div>
+                <div class="navbar-item"><a href="/languages/">Languages</a></div>
+                <div class="navbar-item"><a href="/tags/">Tags</a></div>
+                <div class="navbar-item"><a href="/">Home</a></div>
+                <div class="navbar-item"><a href="http://github.com/yusaira-khan">GitHub</a></div>
+                <div class="navbar-item"><a href="/rss.xml">RSS</a></div>
             </div>
         </div>
     </header>
 
-    <div>
+    <div class="container">
         <div class="post">
             <h1>First!</h1>
             <p>
