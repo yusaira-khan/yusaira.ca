@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="/media/css/bulma/bulma.min.css" type="text/css">
     <style>
         :root {
-            --bold-bg-color: #117746;
-            --light-color: #cbcbcb;
-            --dark-fg-color: #0d5c36;
+            --rev-bg: #117746;
+            --rev-fg: #eee;
+            --main-fg: #404040;
+            --main-bg: #dfdfdf;
+            --offset-bg: #535353;
+            --link-fg: #0d5c36;
         }
 
         @font-face {
@@ -23,25 +26,48 @@
         }
 
         body {
-            font-family: Pat, sans-serif;
+            font-family: "Roboto Slab";
+            background-color: var(--offset-bg);
         }
 
         .hero,
         .navbar,
         .navbar-item {
-            background-color: var(--bold-bg-color);
+            background-color: var(--rev-bg);
         }
 
         .hero,
         .navbar,
-        .navbar a , .title{
-            color: var(--light-color);
+        .navbar a,
+        .title {
+            color: var(--rev-fg);
+            font-family: Ilisarniq, sans-serif;
         }
-     @media screen and (min-width:1024px) {
-         .container {
-             max-width:960px
-         }
-         }
+
+        @media screen and (min-width:1024px) {
+            .container {
+                max-width: 960px
+            }
+        }
+
+        .section {
+            background-color: var(--main-bg);
+            color: var(--main-fg);
+        }
+
+        .footer {
+            background-color: var(--rev-fg);
+        }
+
+        a,
+        h1,
+        h2,
+        h3 {
+            color: var(--link-fg);
+        }
+     blockquote{
+         font-family:'Patrick Hand';
+     }
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -73,83 +99,85 @@
 </head>
 
 <body>
-    <header class="masthead navbar" aria-label="main navigation">
-        <div class="navbar-brand">
-            <h1 class="masthead-title navbar-item is-size-3"><a href="/blog/">Yusaira&#39;s Blog</a></h1>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div id="navMenu" class="navbar-menu">
-            <div class="navbar-start">
+    <div class='container is-max-desktop'>
+        <header class="masthead navbar" aria-label="main navigation">
+            <div class="navbar-brand">
+                <h1 class="masthead-title navbar-item is-size-3"><a href="/blog/">Yusaira&#39;s Blog</a></h1>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div class="navbar-end">
-                <div class="navbar-item"><a href="/blog/">Blog</a></div>
-                <div class="navbar-item"><a href="/general/">General</a></div>
-                <div class="navbar-item"><a href="/languages/">Languages</a></div>
-                <div class="navbar-item"><a href="/tags/">Tags</a></div>
-                <div class="navbar-item"><a href="/">Home</a></div>
-                <div class="navbar-item"><a href="http://github.com/yusaira-khan">GitHub</a></div>
-                <div class="navbar-item"><a href="/rss.xml">RSS</a></div>
+
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item"><a href="/blog/">Blog</a></div>
+                    <div class="navbar-item"><a href="/general/">General</a></div>
+                    <div class="navbar-item"><a href="/languages/">Languages</a></div>
+                    <div class="navbar-item"><a href="/tags/">Tags</a></div>
+                    <div class="navbar-item"><a href="/">Home</a></div>
+                    <div class="navbar-item"><a href="http://github.com/yusaira-khan">GitHub</a></div>
+                    <div class="navbar-item"><a href="/rss.xml">RSS</a></div>
+                </div>
+            </div>
+        </header>
+
+        <div class='hero'>
+            <div class='hero-body'>
+                <h1 class='title is-size-1'>First!</h1>
+                <div class="post-meta subtile">
+                    <span title="post date" class="post-info"> Created: 2020-06-03</span>
+                    <span title="last modification date" class="post-info"> Modified: 2020-07-25</span>
+                    <span title="tags" class="post-info">Tags: N/A</span>
+                </div>
             </div>
         </div>
-    </header>
-
-    <div class='hero'>
-        <div class='hero-body'>
-            <h1 class='title is-size-1'>First!</h1>
-            <div class="post-meta subtile">
-                <span title="post date" class="post-info"> Created: 2020-06-03</span>
-                <span title="last modification date" class="post-info"> Modified: 2020-07-25</span>
-                <span title="tags" class="post-info">Tags: N/A</span>
-            </div>
-        </div>
-    </div>
-    <div class="section is-size-3">
-        <div class="container  is-max-desktop">
-            <p>
-                This took a while to setup.
-            </p>
-
-            <p>
-                For some reason I was really set on using org files to statically generate this site. Then I looked through a lot of different org file static site generators. Finally landed on org-pages, but then forked it, heavily modified it and removed modifications.
-            </p>
-
-
-            <p>
-                At least I know emacs lisp now. (Self High Five!)
-            </p>
-
-
-            <p>
-                This was way too complicated.
-            </p>
-
-            <blockquote>
+        <div>
+            <div class="section is-size-3">
                 <p>
-                    Why'd you have to go and make things so complicated?
-                    I see the way you're acting like you're somebody else
-                    Gets me frustrated
-                    -- Avril Lavigne
+                    This took a while to setup.
                 </p>
-            </blockquote>
 
+                <p>
+                    For some reason I was really set on using org files to statically generate this site. Then I looked through a lot of different org file static site generators. Finally landed on org-pages, but then forked it, heavily modified it and removed modifications.
+                </p>
+
+
+                <p>
+                    At least I know emacs lisp now. (Self High Five!)
+                </p>
+
+
+                <p>
+                    This was way too complicated.
+                </p>
+
+                <blockquote>
+                    <p>
+                        Why'd you have to go and make things so complicated?
+                        I see the way you're acting like you're somebody else
+                        Gets me frustrated
+                        -- Avril Lavigne
+                    </p>
+                </blockquote>
+
+            </div>
         </div>
-    </div>
-    <div>
-        <div class="footer">
-            <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
-            <p>
-                Hello! its <span id="footerYear"></span> and I am <a href="mailto:yusairamkhan &lt;at&gt; gmail &lt;dot&gt; com">Yusaira Khan</a> !
-                &nbsp;&nbsp;-&nbsp;&nbsp;
-                Powered by (fork of) <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
-                <script type="text/javascript">
-                    document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();
-                </script>
-            </p>
+        <div>
+            <div class="footer">
+                <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+                <p>
+                    Hello! its <span id="footerYear"></span> and I am <a href="mailto:yusairamkhan &lt;at&gt; gmail &lt;dot&gt; com">Yusaira Khan</a> !
+                    &nbsp;&nbsp;-&nbsp;&nbsp;
+                    Powered by (fork of) <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+                    <script type="text/javascript">
+                        document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();
+                    </script>
+                </p>
+            </div>
         </div>
     </div>
 
