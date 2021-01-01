@@ -13,7 +13,7 @@ src: local('Ilisarniq'),  url("/media/webfonts//Ilisarniq-Italic.woff2") format(
 }
 @font-face {
 font-family: 'Ilisarniq';
-font-weight: bold;
+font-weight: 700;
 font-display: swap;
 src: local('Ilisarniq'),  url("/media/webfonts//Ilisarniq-Bold.woff2") format('woff2');
 }
