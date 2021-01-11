@@ -4,74 +4,77 @@
 #+DATE:        2020-07-25 Sat
 #+URI:         /blog/%y/%m/%d/etymologies-are-crazy-fascinating
 #+KEYWORDS:    linguistics
-#+TAGS:        linguistics
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+TWEETID: 1344520508096860160
 
 I've been obsessed with the etymology of words in English that relate to words in Bengali/Hindi for forever.
 English is a Germanic (and a bit of Latin derived) language. Bengali is a Sanskrit derived language. Sanskrit and Latin are thought to derived from Proto-Indo-European.
 
 Proto Indo-European (PIE)  language has many reconstructed words from its descendants. 
-Descendant languages include: English, German, other Germanic languages
-French, Spanish, other romance languages
-Russian
-Greek
-Persian
-Bengali, Hindi, Urdu, other Sanskrit derived languages
+Descendant languages include: 
+- English, German, other Germanic languages
+- French, Spanish, other romance languages
+- Russian
+- Greek
+- Persian
+- Bengali, Hindi, Urdu, other Sanskrit derived languages
 
 Words that are common between English, Bengali and PIE are (amazingly) words that were used in everyday life by people thousands of years ago. This is my favourite video about it
-
-One of the first words I found out were related are: 
-Summer (English)
-সন (Shon) (Bengali for year)
-संवत (Hindi for year)
--------------
-
-Related words:
-Young (English)
- (Jowan) (Persian for young) جوان
-জোয়ান (Jo-ahn) (Bengali for young man)
-जवान (Javan) 
-
--------------
-Head (English via Germanic)
-Capital (English via Latin)
-कपाल (kapaal) (Hindi for head)
-কপাল (kopal) (Bengali for forehead or luck)
-
--------------
-سپهر (Persian for sky)(Sepehr)
-सफेद (Safed) (Hindi for white)
-শ্বেত / সাদা (Shet/Shada) (Bengali for white)
-
--------------
-Hibernate (English)
-The Himalayas (English)
-হিম (him) (Bengali for cool/dew/frost)
-
--------------
-Word (English via Germanic)
-Verb (English via Latin)
-व्रत (vrat) (Hindi for fast)
-ব্রত (brot) (Bengali for vow)
-
--------------
-Tree (English)
-Truth (English)
-ডাঁটা/ডাল (data/dal) (bengali for stem)
+#+HTML: <iframe src="https://www.youtube.com/embed/ErXa5PyHj4I"></iframe> 
 
 -------------
 
-Dis- prefix in disgrace/disappoint
-To দুঃ prefix in Bengali in দুঃখ(sadness)(duhkho),  দুর্গ(fort)(durgo)
-Similarly, दुःख (sadness)(dukh), दुर्ग(fort)(durg) in Hindi
+One of the first words I found out were related are: \\
+/Summer/  (English) \\
+/সন/ (Shon) (Bengali for year) \\
+/संवत/ (Hindi for year) \\
+-------------
+
+Related words: \\
+/Young/ (English) \\
+/جوان/ (Jowan) (Persian for young) \\
+/জোয়ান/ (Jo-ahn) (Bengali for young man) \\
+/जवान/ (Javan) (Hindi for young) \\
+
+-------------
+/Head/ (English via Germanic) \\
+/Capital/ (English via Latin) \\
+/कपाल/ (kapaal) (Hindi for head) \\
+/কপাল/ (kopal) (Bengali for forehead or luck)
+
+-------------
+/سپهر/ (Sepehr) (Persian for sky) \\
+/सफेद/ (Safed) (Hindi for white) \\ 
+/শ্বেত/ / /সাদা/ (Shet/Shada) (Bengali for white) \\
+
+-------------
+/Hibernate/ (English) \\
+/The Himalayas/ (English) \\
+/হিম/ (him) (Bengali for cool/dew/frost)
+
+-------------
+/Word/ (English via Germanic)\\
+/Verb/ (English via Latin) \\
+/व्रत/ (vrat) (Hindi for fast) \\
+/ব্রত/ (brot) (Bengali for vow)
+
+-------------
+/Tree/ (English) \\
+/Truth/ (English) \\
+/ডাঁটা/ / /ডাল/ (data / dal) (bengali for stem) \\
+
+-------------
+/Dis-/ prefix in /disgrace/ / /disappoint/ \\
+/দুঃ/ prefix in Bengali in /দুঃখ/ (sadness)(duhkho), /দুর্গ/ (fort)(durgo) \\
+Similarly, /दुःख/ (sadness)(dukh), /दुर्ग/ (fort)(durg) in Hindi
 
 -------------
 
-Water (English)
-Otter (English)
-উদ (ud)(Bengali for water, but rarely used)
-উদ্বিড়াল (udbiral) (Bengali for otter. Literally water cat! 
+/Water/ (English) \\
+/Otter/ (English) \\
+/উদ/ (ud)(Bengali for water, but rarely used) \\
+/উদ্বিড়াল/ (udbiral) (Bengali for otter. Literally water cat! 
 
 -------------
 
