@@ -9,7 +9,9 @@
 #+TWEETID: 1321165599947526144
 This took a while to setup. 
 
-For some reason I was really set on using org files to statically generate this site. Then I looked through a lot of different org file static site generators. Finally landed on org-pages, but then forked it, heavily modified it and removed modifications.
+For some reason I was really set on using org files to statically generate this site. 
+Then I looked through a lot of different org file static site generators. 
+Finally landed on org-pages, but then forked it, heavily modified it and removed lots of extras.
 
 
 At least I know emacs lisp now. (Self High Five!)
@@ -18,8 +20,8 @@ At least I know emacs lisp now. (Self High Five!)
 This was way too complicated.
 
 #+BEGIN_QUOTE
-Why'd you have to go and make things so complicated?
-I see the way you're acting like you're somebody else
-Gets me frustrated
+Why'd you have to go and make things so complicated? \\
+I see the way you're acting like you're somebody else \\
+Gets me frustrated \\
 -- Avril Lavigne
 #+END_QUOTE

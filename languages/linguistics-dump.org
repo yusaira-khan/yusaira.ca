@@ -22,7 +22,8 @@ Descendant languages include:
 
 Words that are common between English, Bengali and PIE are (amazingly) words that were used in everyday life by people thousands of years ago. This is my favourite video about it
 #+HTML: <iframe src="https://www.youtube.com/embed/ErXa5PyHj4I"></iframe> 
-
+#+HTML: <link rel="stylesheet" href="/media/css/baloo-combined-font.css" type="text/css" >
+#+HTML: <link rel="stylesheet" href="/media/css/languages.css" type="text/css" >
 -------------
 
 One of the first words I found out were related are: \\
