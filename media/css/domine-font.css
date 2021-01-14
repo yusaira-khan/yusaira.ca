@@ -1,7 +1,5 @@
-
 @font-face {
     font-family: 'Domine';
-    font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: local('Domine'), url("/media/webfonts/Domine-Regular.woff2") format('woff2');
