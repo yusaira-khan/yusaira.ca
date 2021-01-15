@@ -61,6 +61,7 @@ blockquote {
 
 h1, h2{
     font-family: Ilisarniq, sans-serif;
+    font-weight:700;
 }
 section.section{
     min-height: 75vh;
@@ -78,4 +79,8 @@ section.section{
 }
 .card-header{
     padding-left: 1rem;
+}
+
+.navbar-brand{
+    font-weight: 700;
 }
