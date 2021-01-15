@@ -6,6 +6,7 @@
 #+KEYWORDS:    linguistics
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: Let me tell you about languages
 #+TWEETID: 1344520508096860160
 
 I've been obsessed with the etymology of words in English that relate to words in Bengali/Hindi for forever.
