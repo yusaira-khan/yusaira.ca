@@ -1,0 +1,11 @@
+#+TITLE:       Thriving vs Surviving
+#+AUTHOR:      Yusaira Khan
+#+EMAIL:       yusairamkhan@gmail.com
+#+DATE:        2021-03-08 Mon
+#+URI:         /blog/%y/%m/%d/thriving-vs-surviving
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: Thriving is hard, surviving is hard
+#+TWEETID:     nil
