@@ -8,7 +8,7 @@
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: Thriving is hard, surviving is hard
-#+TWEETID:     1369079838556950536
+#+TWEETID:     1369085615296442380
 
 I was thinking about Thriving and Surviving. And about Community and Individualism. Obedience and Disobience.
 
