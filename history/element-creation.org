@@ -35,4 +35,6 @@ after that, towards the end of the life of a star, before a supernova
 1Hep2n4 +  1Fe26n52->1Ni28n56  
 1Hep2n4 +  1Ni28n56-> 1Zn30n60 
 
-https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg
+[[file:https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg]]
+
+[https://en.wikipedia.org/wiki/Alpha_process[prettier euqations at wikipedia]]
