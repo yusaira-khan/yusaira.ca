@@ -25,7 +25,7 @@ at 7e8 K
 1Hep2n4 +  1Ar18n36-> 1Cap20n40
 
 increases temperature to 3e9
-https://en.wikipedia.org/wiki/Nucleosynthesis#/media/File:SolarSystemAbundances.svg
+[[https://en.wikipedia.org/wiki/Nucleosynthesis#/media/File:SolarSystemAbundances.svg]]
 
 after that, towards the end of the life of a star, before a supernova
 1Hep2n4 +  1Cap20n40->1Tip22n44 
@@ -35,6 +35,6 @@ after that, towards the end of the life of a star, before a supernova
 1Hep2n4 +  1Fe26n52->1Ni28n56  
 1Hep2n4 +  1Ni28n56-> 1Zn30n60 
 
-[[file:https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg]]
+[[https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg]]
 
-[https://en.wikipedia.org/wiki/Alpha_process[prettier euqations at wikipedia]]
+[[https://en.wikipedia.org/wiki/Alpha_process][prettier euqations at wikipedia]]
