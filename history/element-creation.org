@@ -2,9 +2,11 @@
 Hydrogen is the most abundant element in the universe.
 Helium is the second most abundant.
 in a star, 4 hydrogen nucleii become helium with the reacion:
+
 4Hp1n1 ->1Hep2n4 + 2b + 2g 
 
 at 2e8 K, helium begins to form beryllium
+
 2Hep2n4 ->1Bep4n8
 
 1Hep2n4 + 1Bep4n8 ->1Cp6n12
@@ -16,22 +18,30 @@ at 2e8 K, helium begins to form beryllium
 1Hep2n4 + 1Nep10n20 ->1Mgp12n24
 
 at 7e8 K
+
 2Cp6n12 -> 1Na11n23 + 1Hp1n1 
+
 1Cp6n12 + 1Op8n16-> 1Si14n28 + g
 
 1Hep2n4 + 1Mgp12n24 -> 1Si14n28
+
 1Hep2n4 +  1Si14n28 -> 1S16n32
+
 1Hep2n4 +  1S16n32-> 1Ar18n36
+
 1Hep2n4 +  1Ar18n36-> 1Cap20n40
 
 increases temperature to 3e9
 
 after that, towards the end of the life of a star, before a supernova
 1Hep2n4 +  1Cap20n40->1Tip22n44 
+
 1Hep2n4 +  1Tip22n44-> 1Crp24n48
+
 1Hep2n4 +  1Crp24n48-> 1Fe26n52 
-1Hep2n4 +  1Crp24n48-> 1Fe26n52 
+
 1Hep2n4 +  1Fe26n52->1Ni28n56  
+
 1Hep2n4 +  1Ni28n56-> 1Zn30n60 
 
 
@@ -39,8 +49,10 @@ after that, towards the end of the life of a star, before a supernova
 
 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/SolarSystemAbundances.svg/1920px-SolarSystemAbundances.svg.png]]
+
 https://en.wikipedia.org/wiki/Nucleosynthesis#/media/File:SolarSystemAbundances.svg
 
 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Nucleosynthesis_periodic_table.svg/768px-Nucleosynthesis_periodic_table.svg.png]]
+
 https://en.wikipedia.org/wiki/File:Nucleosynthesis_periodic_table.svg
