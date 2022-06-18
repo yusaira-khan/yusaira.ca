@@ -14,10 +14,6 @@ var timer;
 
 function changeColor(colorString) {
   body["background-color"] = colorString;
-  var texts = document.getElementsByClassName("stacked-icon-inner");
-  for (var i = 0; i < texts.length; i++) {
-    texts[i].style.color = colorString;
-  }
 }
 
 function addShadow() {
@@ -53,31 +49,39 @@ function getColorFromTime(d, mode) {
   return convertToRGB(hourColor, minuteColor, secondColor, mode);
 }
 
-function getTime(d, mode) {
-  var displayText =
-    mode +
-    "(" +
+function getTime(d) {
+  return (
+    '<div class="time">' +
     d.getHours() +
-    ":" +
+    "h:" +
     d.getMinutes() +
-    ":" +
+    "m:" +
     d.getSeconds() +
-    ")";
-  return displayText;
+    "s" +
+    "</div>"
+  );
 }
 
+function getPrefix(mode) {
+  return (
+    '<div id="mode-outer">' +
+    '<div id="mode">' +
+    mode +
+    "</div>" +
+    '<div id="mode-text"> color from time</div>' +
+    "</div>"
+  );
+}
 function displayClock() {
   var d = new Date();
-  var color = getColorFromTime(d, mode);
-  changeColor(color);
-  var displayText = getTime(d, mode);
-  document.getElementById("clock").textContent =
-    "Current color is:" + displayText;
+  changeColor(getColorFromTime(d, mode));
+  var displayText = "Current background <br/> " + getPrefix(mode) + getTime(d);
+  document.getElementById("clock").innerHTML = displayText;
 }
 
 function removeClock() {
   clearInterval(timer);
-  changeColor("rgb(17,119,70)");
+  changeColor("#087457");
   removeShadow();
   clock.display = "none";
   color.display = "inline-block";

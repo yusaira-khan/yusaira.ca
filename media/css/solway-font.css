@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Domine';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Solway'), url("/media/webfonts/solway-400.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Solway';
+    font-weight: 500;
+    font-display: swap;
+    src: local('Solway'),  url("/media/webfonts/solway-500.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Solway';
+    font-weight: 700;
+    font-display: swap;
+    src: local('Solway'),  url("/media/webfonts/solway-700.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Solway';
+    font-weight: 800;
+    font-display: swap;
+    src: local('Solway'),  url("/media/webfonts/solway-800.woff2") format('woff2');
+}

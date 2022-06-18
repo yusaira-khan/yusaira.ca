@@ -1,10 +1,24 @@
 body {
-    background-color: rgb(17, 119, 70);
+    background-color: #087457;
     color: #eee;
     font-family: 'Ilisarniq', sans-serif;
 
 }
+#name {
+    font-family: 'Solway', sans-serif;
+}
 
+#mode{
+    width:3em;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 1em;
+    text-align: center;
+}
+#mode-text{
+    display: inline-block;
+}
 .beside-stacked {
     vertical-align: middle;
 }
@@ -12,6 +26,7 @@ body {
 .fa-stack {
     font-size: 0.5em;
 }
+
 
 a:hover {
     color: #eee;
@@ -28,7 +43,7 @@ a {
 }
 
 .stacked-icon-inner {
-    color: rgb(17, 119, 70);
+    color: #087457;
 }
 
 @media screen and (min-width:769px),
