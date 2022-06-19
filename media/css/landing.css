@@ -1,20 +1,40 @@
 body {
-    background-color: #087457;
     color: #eee;
-    font-family: 'Ilisarniq', sans-serif;
 
 }
+.regular-background {
+    background-color: #087457;
+}
+.regular-font {
+    font-family: 'Ilisarniq', sans-serif;
+}
+
+.shadowed-text {
+    text-shadow: -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444;
+}
+
+.shadowed-border {
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 0  1px 1px #444, inset 0 1px 1px #444;
+    text-align:center;
+    margin-top: 0.2em;
+}
+#time {
+    max-width: 12em;
+    min-width: 12em;
+}
+
 #name {
     font-family: 'Solway', sans-serif;
 }
 
 #mode{
-    width:3em;
-    border: 2px solid #eee;
-    border-radius: 10px;
-    display: inline-block;
-    margin-left: 1em;
-    text-align: center;
+    font-size:1em;
+    height: 1.8em;
+    vertical-align: unset;
+    padding-left: 0.5em ;
+    padding-right: 0.5em ;
 }
 #mode-text{
     display: inline-block;

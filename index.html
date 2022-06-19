@@ -17,7 +17,7 @@
 
 </head>
 
-<body id=body class="hero is-fullheight is-size-4-mobile is-size-2-tablet">
+<body id=body class="regular-background hero is-fullheight is-size-4-mobile is-size-2-tablet">
     <div class="hero-body has-text-left-mobile has-text-centered-tablet">
         <div class="container">
             <div id=name class="columns">
@@ -111,12 +111,17 @@
                     </div>
                 </div>
                 <div id="clockDiv" style="display:none;" class="links column is-narrow-tablet">
-                    <a>
                         <span class="icon">
                             <i id="closeButton" class="fa fa-window-close">
                             </i>
                         </span>
                         <span id=clock class=link-text>
+                            Current background
+                            <div id="mode-outer">
+                                <div id="mode" class="button is-rounded regular-font" ></div>
+                                <div id="mode-text"> color from time</div>
+                            </div>
+                            <div id="time" class="shadowed-border"/>
                         </span>
 
                 </div>

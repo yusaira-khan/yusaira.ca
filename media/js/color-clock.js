@@ -1,28 +1,46 @@
-var body = document.getElementById("body").style;
+var timer;
+var bodyElem = document.getElementById("body");
+var body = bodyElem.style;
 var color = document.getElementById("colorSection").style;
 var clock = document.getElementById("clockDiv").style;
+const backgroundColor = "background-color";
+const defaultClass = "regular-background";
+const shadow = "shadowed-text";
+
 var modeOptions = ["rgb", "bgr", "gbr", "rbg", "brg", "grb"];
 var modeIndex = 0;
 var mode = modeOptions[modeIndex];
-
 function changeMode() {
   modeIndex++;
   modeIndex = modeIndex % modeOptions.length;
   mode = modeOptions[modeIndex];
+  setModeText(mode);
 }
-var timer;
+function setModeText(mode) {
+  document.getElementById("mode").textContent = mode;
+}
 
-function changeColor(colorString) {
-  body["background-color"] = colorString;
+function changeBackground(colorString) {
+  body[backgroundColor] = colorString;
+}
+function prepareBackground() {
+  var currentBacground = window
+    .getComputedStyle(bodyElem)
+    .getPropertyValue(backgroundColor);
+  bodyElem.classList.remove(defaultClass);
+  body[backgroundColor] = currentBacground;
+}
+function resetBackground() {
+  body.removeProperty(backgroundColor);
+  bodyElem.classList.add(defaultClass);
 }
 
 function addShadow() {
-  body["text-shadow"] =
-    "-1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444";
+  bodyElem.classList.add(shadow);
 }
 
 function removeShadow() {
-  body["text-shadow"] = "";
+  bodyElem.classList.remove(shadow);
 }
 
 function convertToRGB(h, m, s, mode) {
@@ -49,50 +67,39 @@ function getColorFromTime(d, mode) {
   return convertToRGB(hourColor, minuteColor, secondColor, mode);
 }
 
-function getTime(d) {
-  return (
-    '<div class="time">' +
-    d.getHours() +
-    "h:" +
-    d.getMinutes() +
-    "m:" +
-    d.getSeconds() +
-    "s" +
-    "</div>"
-  );
+function getTimeText(d) {
+  return d.getHours() + "h:" + d.getMinutes() + "m:" + d.getSeconds() + "s";
 }
 
-function getPrefix(mode) {
-  return (
-    '<div id="mode-outer">' +
-    '<div id="mode">' +
-    mode +
-    "</div>" +
-    '<div id="mode-text"> color from time</div>' +
-    "</div>"
-  );
-}
-function displayClock() {
+function tickClock() {
   var d = new Date();
-  changeColor(getColorFromTime(d, mode));
-  var displayText = "Current background <br/> " + getPrefix(mode) + getTime(d);
-  document.getElementById("clock").innerHTML = displayText;
+  changeBackground(getColorFromTime(d, mode));
+  document.getElementById("time").textContent = getTimeText(d);
 }
 
-function removeClock() {
-  clearInterval(timer);
-  changeColor("#087457");
-  removeShadow();
+function switchTextToClock() {
+  clock.display = "inline-block";
+  color.display = "none";
+}
+function switchClockToText() {
   clock.display = "none";
   color.display = "inline-block";
 }
 
+function removeClock() {
+  clearInterval(timer);
+  resetBackground();
+  removeShadow();
+  switchClockToText();
+}
+
 function startClock() {
-  timer = setInterval(displayClock);
-  clock.display = "inline-block";
-  color.display = "none";
+  timer = setInterval(tickClock);
+  switchTextToClock();
+  setModeText(mode);
+  prepareBackground();
   addShadow();
 }
 document.getElementById("colorSection").onclick = startClock;
 document.getElementById("closeButton").onclick = removeClock;
-document.getElementById("clock").onclick = changeMode;
+document.getElementById("mode").onclick = changeMode;
