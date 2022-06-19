@@ -13,20 +13,29 @@ body {
     text-shadow: -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444;
 }
 
+
 .shadowed-border {
     border: 2px solid #eee;
     border-radius: 10px;
     box-shadow: 0 0  1px 1px #444, inset 0 1px 1px #444;
-    text-align:center;
-    margin-top: 0.2em;
 }
 #time {
-    max-width: 12em;
-    min-width: 12em;
+    margin-top: 0.2em;
+    text-align:center;
+    max-width: 8em;
+    min-width: 8em;
+}
+#clock-title{
+    vertical-align:text-top;
+    font-size:0.75em;
 }
 
-#name {
-    font-family: 'Solway', sans-serif;
+.mono-font{
+    font-family: 'Space Mono', monospace;
+}
+
+.name-font {
+    font-family: 'Solway', normal;
 }
 
 #mode{
@@ -35,9 +44,38 @@ body {
     vertical-align: unset;
     padding-left: 0.5em ;
     padding-right: 0.5em ;
+    color:#eee;
+    font-weight:700;
+    box-shadow: 0 0 1px 1px #444;
 }
-#mode-text{
+
+#mode:hover{
+    color:#eee;
+    text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+    box-shadow: 0 0 1px 1px #111;
+}
+.closeButton:hover{
+    text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+}
+
+#mid-text{
     display: inline-block;
+}
+
+.with-corner{
+    position:relative;
+    padding-top:1.5em;
+    justify-content: left;
+    padding-left:0.5em;
+}
+
+#prefix-text{
+    text-align:left;
+}
+
+.top-corner{
+    position: absolute;
+    top: 0px;
 }
 .beside-stacked {
     vertical-align: middle;

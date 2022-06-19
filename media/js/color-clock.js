@@ -67,14 +67,32 @@ function getColorFromTime(d, mode) {
   return convertToRGB(hourColor, minuteColor, secondColor, mode);
 }
 
-function getTimeText(d) {
-  return d.getHours() + "h:" + d.getMinutes() + "m:" + d.getSeconds() + "s";
+function zP(num) {
+  if (num == 0) return "00";
+  if (num < 10) return "0" + num;
+  return "" + num;
+}
+
+function hours(d) {
+  return zP(d.getHours()) + "h";
+}
+
+function minutes(d) {
+  return zP(d.getMinutes()) + "m";
+}
+
+function seconds(d) {
+  return zP(d.getSeconds()) + "s";
+}
+function setTimeText(d) {
+  document.getElementById("time").textContent =
+    hours(d) + ":" + minutes(d) + ":" + seconds(d);
 }
 
 function tickClock() {
   var d = new Date();
   changeBackground(getColorFromTime(d, mode));
-  document.getElementById("time").textContent = getTimeText(d);
+  setTimeText(d);
 }
 
 function switchTextToClock() {

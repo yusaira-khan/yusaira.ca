@@ -12,16 +12,17 @@
     <link href="/media/css/bulma/bulma.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/media/css/ilisarniq-font.css" type="text/css" >
     <link rel="stylesheet" href="/media/css/solway-font.css" type="text/css" >
+    <link rel="stylesheet" href="/media/css/space-mono-font.css" type="text/css" >
     <link href="/media/css/landing.css" rel="stylesheet">
     <title>Yusaira Khan</title>
 
 </head>
 
-<body id=body class="regular-background hero is-fullheight is-size-4-mobile is-size-2-tablet">
+<body id=body class="regular-background regular-font hero is-fullheight is-size-4-mobile is-size-2-tablet">
     <div class="hero-body has-text-left-mobile has-text-centered-tablet">
         <div class="container">
-            <div id=name class="columns">
-                <div class="column is-size-3-mobile is-size-1-tablet">
+            <div class="columns">
+                <div class="name-font column is-size-3-mobile is-size-1-tablet">
                     Yusaira Khan
                 </div>
             </div>
@@ -110,18 +111,23 @@
                         <span class="link-text">Color Clock
                     </div>
                 </div>
-                <div id="clockDiv" style="display:none;" class="links column is-narrow-tablet">
-                        <span class="icon">
-                            <i id="closeButton" class="fa fa-window-close">
+                <div id="clockDiv" style="display:none;" class="with-corner shadowed-border  name-font links column is-narrow-tablet">
+                    <div class="top-corner">
+                        <span class="icon closeButton">
+                            <i id="closeButton" class="fa fa-times-square">
                             </i>
                         </span>
-                        <span id=clock class=link-text>
-                            Current background
-                            <div id="mode-outer">
-                                <div id="mode" class="button is-rounded regular-font" ></div>
-                                <div id="mode-text"> color from time</div>
+                        <span id="clock-title"> Color Clock </span>
+                        </div>
+                        <span id=clock class="link-text ">
+                            <div id="prefix-text">
+                                Current background is
                             </div>
-                            <div id="time" class="shadowed-border"/>
+                            <div id="mode-outer">
+                                <div id="mode" class="button is-rounded mono-font" ></div>
+                                <div id="mid-text"> color from time</div>
+                            </div>
+                            <div id="time" class="shadowed-border mono-font"/>
                         </span>
 
                 </div>
