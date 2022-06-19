@@ -9,15 +9,25 @@ const shadow = "shadowed-text";
 
 var modeOptions = ["rgb", "bgr", "gbr", "rbg", "brg", "grb"];
 var modeIndex = 0;
-var mode = modeOptions[modeIndex];
+var selectedMode = modeOptions[modeIndex];
+var modeElem = document.getElementById("mode");
+var modeElemColors = {
+  r: document.getElementById("r"),
+  g: document.getElementById("g"),
+  b: document.getElementById("b"),
+};
 function changeMode() {
   modeIndex++;
   modeIndex = modeIndex % modeOptions.length;
-  mode = modeOptions[modeIndex];
-  setModeText(mode);
+  selectedMode = modeOptions[modeIndex];
+  setModeText(selectedMode);
 }
 function setModeText(mode) {
-  document.getElementById("mode").textContent = mode;
+  let content = [];
+  modeElem.innerHTML = "";
+  for (let c of mode) {
+    modeElem.appendChild(modeElemColors[c]);
+  }
 }
 
 function changeBackground(colorString) {
@@ -91,7 +101,7 @@ function setTimeText(d) {
 
 function tickClock() {
   var d = new Date();
-  changeBackground(getColorFromTime(d, mode));
+  changeBackground(getColorFromTime(d, selectedMode));
   setTimeText(d);
 }
 
@@ -114,10 +124,10 @@ function removeClock() {
 function startClock() {
   timer = setInterval(tickClock);
   switchTextToClock();
-  setModeText(mode);
+  setModeText(selectedMode);
   prepareBackground();
   addShadow();
 }
 document.getElementById("colorSection").onclick = startClock;
 document.getElementById("closeButton").onclick = removeClock;
-document.getElementById("mode").onclick = changeMode;
+modeElem.onclick = changeMode;
